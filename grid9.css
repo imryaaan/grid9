@@ -1,0 +1,445 @@
+@import url(content.css);
+a:link {
+  color: #ffffff;
+  text-decoration: none; }
+
+/* unvisited link */
+a:visited {
+  color: #ffffff;
+  text-decoration: none; }
+
+/* visited link */
+a:hover {
+  color: #ffffff;
+  text-decoration: none; }
+
+/* mouse over link */
+a:active {
+  color: #ffffff;
+  text-decoration: none; }
+
+/* selected link */
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #ffff00;
+  margin: 0;
+  padding: 0px; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+h1 {
+  color: #ffffff;
+  text-align: center; }
+
+h4 {
+  color: #ffffff;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px; }
+
+video {
+  width: 100%;
+  height: 50%; }
+
+hr {
+  width: 80%;
+  top: 0;
+  color: white; }
+
+#text {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px; }
+
+.first {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: #ff0000; }
+
+.second {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  background-color: #ffff00; }
+  .second .section {
+    margin: 0;
+    padding: 0; }
+
+.col {
+  display: block;
+  float: left;
+  margin: 0; }
+
+.col:first-child {
+  margin-left: 0; }
+
+.span_1_of_3 {
+  position: relative;
+  width: 33.33333%;
+  padding-bottom: 33.3333%;
+  height: 0; }
+
+.one {
+  background-image: url(img/img1.jpg);
+  background-size: contain; }
+
+.two {
+  background-image: url(img/img3.jpg);
+  background-size: contain; }
+
+.third {
+  background-image: url(img/img2.jpg);
+  background-size: contain; }
+
+.fourth {
+  background-image: url(img/img4.jpg);
+  background-size: contain; }
+
+.fith {
+  background-image: url(img/img5.jpg);
+  background-size: contain; }
+
+.sixth {
+  background-image: url(img/img6.jpg);
+  background-size: contain; }
+
+.seventh {
+  background-image: url(img/img7.jpg);
+  background-size: contain; }
+
+.eigth {
+  background-image: url(img/img8.jpg);
+  background-size: contain; }
+
+.ninth {
+  background-image: url(img/img9.jpg);
+  background-size: contain; }
+
+h2 {
+  top: 70%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap; }
+
+h2 span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 8.5px; }
+
+.content {
+  width: 100%;
+  height: 700px;
+  background-color: #000000; }
+  .content .intro {
+    width: 100%;
+    height: 280px;
+    background-color: #555;
+    float: left;
+    border: none; }
+  .content .images {
+    width: 100%;
+    height: 170px;
+    background-color: #999;
+    float: left;
+    border: none; }
+  .content .texting {
+    width: 100%;
+    height: 650px;
+    background-color: #111;
+    float: left;
+    border: none; }
+
+@media only screen and (min-width: 769px) {
+  .second {
+    width: 100%;
+    height: 60%; }
+
+  video {
+    width: 100%;
+    height: 50%; }
+
+  .span_1_of_3 {
+    position: relative;
+    width: 33.33333%;
+    padding-bottom: 33.33333%;
+    height: 0; }
+
+  .one {
+    background-image: url(img/img1.jpg);
+    background-size: contain; }
+
+  .two {
+    background-image: url(img/img3.jpg);
+    background-size: contain; }
+
+  .third {
+    background-image: url(img/img2.jpg);
+    background-size: contain; }
+
+  .fourth {
+    background-image: url(img/img4.jpg);
+    background-size: contain; }
+
+  .fith {
+    background-image: url(img/img5.jpg);
+    background-size: contain; }
+
+  .sixth {
+    background-image: url(img/img6.jpg);
+    background-size: contain; }
+
+  .seventh {
+    background-image: url(img/img7.jpg);
+    background-size: contain; }
+
+  .eigth {
+    background-image: url(img/img8.jpg);
+    background-size: contain; }
+
+  .ninth {
+    background-image: url(img/img9.jpg);
+    background-size: contain; }
+
+  h2 {
+    top: 70%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap; }
+
+  h2 span {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8.5px; } }
+@media only screen and (max-width: 768px) {
+  .span_1_of_3 {
+    position: relative;
+    width: 50%;
+    padding-bottom: 50%;
+    height: 0; }
+
+  video {
+    width: 100%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .one {
+    background-image: url(img/img1.jpg);
+    background-size: contain; }
+
+  .two {
+    background-image: url(img/img3.jpg);
+    background-size: contain; }
+
+  .third {
+    background-image: url(img/img2.jpg);
+    background-size: contain; }
+
+  .fourth {
+    background-image: url(img/img4.jpg);
+    background-size: contain; }
+
+  .fith {
+    background-image: url(img/img5.jpg);
+    background-size: contain; }
+
+  .sixth {
+    background-image: url(img/img6.jpg);
+    background-size: contain; }
+
+  .seventh {
+    background-image: url(img/img7.jpg);
+    background-size: contain; }
+
+  .eigth {
+    background-image: url(img/img8.jpg);
+    background-size: contain; }
+
+  .ninth {
+    background-image: url(img/img9.jpg);
+    background-size: contain; }
+
+  h2 {
+    top: 70%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap; }
+
+  h2 span {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8.5px; } }
+@media only screen and (max-width: 640px) {
+  .second {
+    width: 100%;
+    height: 90%; }
+
+  .span_1_of_3 {
+    position: relative;
+    width: 50%;
+    padding-bottom: 50%;
+    height: 0; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%;
+    background-image: url(ttt.jpg); }
+
+  video {
+    width: 100%;
+    height: 50%; }
+
+  .one {
+    background-image: url(img/img1.jpg);
+    background-size: contain; }
+
+  .two {
+    background-image: url(img/img3.jpg);
+    background-size: contain; }
+
+  .third {
+    background-image: url(img/img2.jpg);
+    background-size: contain; }
+
+  .fourth {
+    background-image: url(img/img4.jpg);
+    background-size: contain; }
+
+  .fith {
+    background-image: url(img/img5.jpg);
+    background-size: contain; }
+
+  .sixth {
+    background-image: url(img/img6.jpg);
+    background-size: contain; }
+
+  .seventh {
+    background-image: url(img/img7.jpg);
+    background-size: contain; }
+
+  .eigth {
+    background-image: url(img/img8.jpg);
+    background-size: contain; }
+
+  .ninth {
+    background-image: url(img/img9.jpg);
+    background-size: contain; }
+
+  h2 {
+    top: 70%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap; }
+
+  h2 span {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8.5px; } }
+@media only screen and (max-width: 480px) {
+  .span_1_of_3 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    height: 0; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%;
+    background-image: url(ttt.jpg); }
+
+  h4 {
+    color: #ffffff;
+    text-align: center; }
+
+  video {
+    width: 100%;
+    height: 50%; }
+
+  .one {
+    background-image: url(img/img1.jpg);
+    background-size: contain; }
+
+  .two {
+    background-image: url(img/img3.jpg);
+    background-size: contain; }
+
+  .third {
+    background-image: url(img/img2.jpg);
+    background-size: contain; }
+
+  .fourth {
+    background-image: url(img/img4.jpg);
+    background-size: contain; }
+
+  .fith {
+    background-image: url(img/img5.jpg);
+    background-size: contain; }
+
+  .sixth {
+    background-image: url(img/img6.jpg);
+    background-size: contain; }
+
+  .seventh {
+    background-image: url(img/img7.jpg);
+    background-size: contain; }
+
+  .eigth {
+    background-image: url(img/img8.jpg);
+    background-size: contain; }
+
+  .ninth {
+    background-image: url(img/img9.jpg);
+    background-size: contain; }
+
+  h2 {
+    top: 70%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap; }
+
+  h2 span {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8.5px; } }

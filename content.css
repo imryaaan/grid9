@@ -1,0 +1,232 @@
+.overlay-bg  { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+
+
+.overlay-content {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+     border: none;
+	}
+.overlay-bg2 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+  	}
+.overlay-content2 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+.overlay-bg3 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+.overlay-content3 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+.overlay-bg4 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+.overlay-content4 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+.overlay-bg5 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+.overlay-content5 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+.overlay-bg6 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+.overlay-content6 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+.overlay-bg7 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+.overlay-content7 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+
+.overlay-bg8 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+.overlay-content8 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+.overlay-bg9 { 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */ 
+    background: rgba(0,0,0,0.75);
+    border: none;
+	}
+.overlay-content9 {
+    width: 90%;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: default;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+    margin-top: 40px;
+    border: none;
+	}
+ 
+.close-btn {
+	float:right;
+    cursor: fixed;
+    margin-top: 4px;
+    width:30px;
+    height:30px;
+    background-image: url(img/close.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    }
+

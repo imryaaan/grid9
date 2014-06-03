@@ -1,0 +1,69 @@
+@mixin holders(){
+	height:100%;
+	width:100%;
+	margin:0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+@mixin boxes(){
+	.one{background-image:url(img/img1.jpg); background-size: contain;} 
+	.two{background-image:url(img/img3.jpg); background-size: contain;}
+	.third{background-image:url(img/img2.jpg); background-size: contain;}
+	.fourth{background-image:url(img/img4.jpg); background-size: contain;}
+	.fith{background-image:url(img/img5.jpg); background-size: contain;}
+	.sixth{background-image:url(img/img6.jpg); background-size: contain;}
+	.seventh{background-image:url(img/img7.jpg); background-size: contain;}
+	.eigth{background-image:url(img/img8.jpg); background-size: contain;}
+	.ninth{background-image:url(img/img9.jpg); background-size: contain;}
+	}
+
+	@mixin text(){
+h2{
+	top:70%;
+	left: 5%;
+	width: 100%;
+	height:100%;
+	white-space: nowrap;
+	}
+}
+
+@mixin text2(){
+	h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 8.5px; 
+	}
+
+}
+
+
+@mixin struc(){
+.intro{
+	width:100%;
+	height:280px;
+	background-color: #555;
+	float:left;
+	border: none;
+    }
+
+.images{
+	width:100%;
+	height:170px;
+	background-color: #999;
+	float:left;
+	border: none;
+	}
+
+.texting{
+	width:100%;
+	height:650px;
+	background-color: #111;
+	float:left;
+	border: none;
+	}
+}
